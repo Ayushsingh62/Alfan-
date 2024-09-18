@@ -1,0 +1,372 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.maincontainer{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    flex-direction: column;
+
+}
+.navbar{
+    width: 100%;
+    height: 20px;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    margin: 30px;
+}
+.firstbar{
+    width: 15%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.secondbar{
+    width: 20%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.thirdbar{
+    width: 15%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+h5 img{
+    height: 20px;
+}
+
+h4 img{
+    height: 15px;
+}
+.headimg img{
+    height: 30px;
+    margin-left: 30px;
+}
+.container{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(231, 246, 252);
+    padding: 10px;
+
+}
+
+.leftsection{
+    width: 50%;
+    height: 750px;
+    margin-left: 5%;
+    background-color: aliceblue;
+    border-radius: 10px;
+    padding: 15px;
+    
+   
+}
+.buttons{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.butt{
+    width: 40%;
+    height:auto;
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.buttn{
+    border: 2px solid black;
+    height: 35px;
+    background-color: white;
+    border-radius: 20px;
+    font-weight: 700;
+}
+.bttn{
+    width: 100px;
+    border-radius: 20px;
+    font-weight: 700;
+    height: 35px;
+    background-color: rgb(245, 245, 94);
+}
+.buttons img{
+    height: 15px;
+}
+
+.twitter{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    margin-top: 25px;
+    width: 130px;
+    text-decoration: underline;
+    
+}
+.twitter img{
+    height: 30px;
+}
+.form{
+    margin-top: 10px;
+    height: 280px;
+    border: 0.8px solid rgb(214, 213, 213);
+    padding: 10px;
+    border-radius: 8px;
+}
+.formone{
+    margin-top: 20px;
+    display: flex;
+    height: 50px;
+    flex-direction: column;
+
+}
+.formone input{
+    height: 40px;
+    width: 90%;
+    border-radius: 10px;
+    background-color:rgb(251, 254, 254);
+}
+.bttt{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 10px;
+   
+}
+.btttone{
+    width: 50%;
+    align-items: center;
+    justify-content: center;
+    text-align:start;
+  
+    
+   }
+   .bttttow{
+    align-items: center;
+    text-align: start;
+   }
+   .btttone button{
+    background-color:white;
+   }
+   .btttone img{
+    height: 25px;
+   }
+.bttt img { height: 20px;
+    
+
+}
+.formtwo{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    border: 0.8px solid rgb(214, 213, 213);
+    margin-top: 10px;
+    border-radius: 10px;
+}
+.formleft{
+    width: 5%;
+    height: 100px;
+    border:0.8px solid rgb(214, 213, 213);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.formleft img{
+    height: 20px;
+}
+.formright{
+   
+    width: 100%;
+    display: flex;
+    align-items:flex-start;
+    
+    flex-direction: column;
+    padding: 5px;
+    margin-bottom: 10px;
+}.para{
+   width: 100%;
+   display: flex;
+   align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+   
+}.para img {
+    height: 20px;
+}
+.linktwo{
+    width: 100%;
+    display: flex;
+    align-items: center;
+
+}
+label img{
+   height: 20px;
+}
+form img{
+    height: 20px;
+}
+.linktwo form input{
+    width: 520px;
+    height: 30px;
+    border-radius: 10px;
+}
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.footer button {
+    width: 80px;
+    height: 30px;
+    border: 2px solid black;
+    background-color: white;
+    border-radius: 5px;
+    border-top: 4px solid black;
+    border-right: 4px solid black;
+}
+.foot{
+    display: flex;
+    align-items: center;
+  
+}
+.master{
+    margin-left: 5px;
+}
+.foot img{
+    height: 30px;
+}
+.bar{
+    width: 100%;
+    height:80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 5px;
+    padding: 10px;
+
+
+}.bar h5{
+    font-size: 17px;
+}
+.line{
+    text-decoration: underline;
+}
+
+.rightsection{
+    width: 35%;
+    height: 750px;
+   
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    flex-direction: column;
+    margin-right: 9%;
+    background-color: aliceblue;
+}
+h3{
+    margin-top: 5px;
+}
+p{
+    margin-top: 10px;
+}
+button{
+    margin-top: 10px;
+    width: 40%;
+    border: none;
+    border-radius: 5px;
+  
+}
+.mob{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 35px;
+    background-color: rgb(252, 242, 242);
+    border-radius: 10px;
+    
+}
+.phone{
+    width: 250px;
+    height: 500px;
+    border: 2px solid black;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    border-radius: 20px;
+    margin-top: 40px;
+    border-top: 8px solid black ;
+    padding: 10px;
+}
+.phone img{
+    margin-top: 20px;
+}
+.phone h3{
+    margin-top: 10px;
+}
+.phone p{
+    margin-top: 5px;
+}
+
+.paraa img {
+    height: px;
+}
+.icon img{
+    height: 20px;
+ 
+}
+.text{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  
+    margin-right: 20%;
+}
+.text img{
+    height: 10px;
+}
+.link{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+   
+    margin-top: 20px;
+}
+.link a{
+    text-decoration: none;
+    border: 0.8px solid rgb(46, 45, 45);
+    height: 50px;
+    border-radius: 15px;
+  width: 300px;
+  display: flex;
+  align-items: center;
+    justify-content: space-between;
+
+}
+.btn{
+    width: 80px;
+    height: 30px;
+    background-color: rgb(249, 249, 140);
+    border-radius: 15px;
+    border: none;
+    font-weight: 800;
+   
+}
+input{
+    padding: 10px;
+}
